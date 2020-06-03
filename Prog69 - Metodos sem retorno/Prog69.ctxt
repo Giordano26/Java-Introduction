@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Prog69
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=tx
+comment2.target=void\ imprimirTexto(java.lang.String)
+comment3.params=a\ b
+comment3.target=void\ somar(int,\ int)
+comment4.params=a\ b\ c\ d
+comment4.target=void\ somar(int,\ int,\ int,\ int)
+comment5.params=num
+comment5.target=void\ quadrado(int)
+comment6.params=a\ b\ c
+comment6.target=void\ maior(int,\ int,\ int)
+comment7.params=c
+comment7.target=void\ sexo(char)
+numComments=8
