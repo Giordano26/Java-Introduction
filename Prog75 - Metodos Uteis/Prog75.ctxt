@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Prog75
+comment1.params=texto
+comment1.target=java.lang.String\ LeStringNome(java.lang.String)
+comment2.params=texto\ minimo\ maximo
+comment2.target=int\ LeNumerosInt(java.lang.String,\ int,\ int)
+comment3.params=texto\ minimo\ maximo
+comment3.target=float\ LeNumerosFloat(java.lang.String,\ float,\ float)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

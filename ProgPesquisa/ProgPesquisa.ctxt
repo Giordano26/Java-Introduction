@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ProgPesquisa
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=semana\ nBaratas\ nPorcentagem
+comment2.target=void\ apresentaQtd(int,\ int,\ java.lang.String)
+comment3.params=nBaratas
+comment3.target=int\ passaSemana(int)
+comment4.params=nBaratas
+comment4.target=int\ pulveriza(int)
+numComments=5
