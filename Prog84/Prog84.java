@@ -18,42 +18,44 @@ public class Prog84{
         String mens="";
 
         do{
-            System.out.println("\n Digite sua altura (0 para sair)");
+            System.out.println("\nDigite sua altura (0 para sair)");
             Scanner sc = new Scanner(System.in);
             altura = sc.nextFloat();
             if(altura == 0)
                 System.exit(0);
+            if(altura < 0 || altura > 2.30){
+                System.out.println("Altura inválida");
+                continue;
+            }
             System.out.println("Digite seu peso (0 para sair)");
 
             sc = new Scanner(System.in);
             peso = sc.nextFloat();
             if(peso == 0)
                 System.exit(0);
+            if(peso < 0 || peso > 300){
+                System.out.println("Peso invalido");
+                continue;
+            }
             sc.close();
 
            
-            if(altura < 0 || altura > 2.30){
-                System.out.println("Altura inválida");
-                continue;
-            }
-            if(peso < 0 || peso > 300){
-                IMC = peso/(altura*altura);
-                continue;
-            }
+            
+            
 
             IMC = peso/(altura*altura);
 
             if(IMC < 18.5)
                 mens = "Peso abaixo do normal";
-            if(IMC >= 18.5 || IMC < 24.5)
+            else if(IMC >= 18.5 || IMC < 24.5)
                 mens = "Peso ideal";
-            if(IMC >= 24.5 || IMC < 30)
+            else if(IMC >= 24.5 || IMC < 30)
                 mens = "Pré-obesidade";
-            if(IMC >= 30 || IMC < 35)
+            else if(IMC >= 30 || IMC < 35)
                 mens = "Obesidade Classe I";
-            if(IMC >= 35 || IMC < 39.9)
+            else if(IMC >= 35 || IMC < 39.9)
                 mens = "Obesidade Classe II (Severa)";
-            if(IMC >= 39.9)
+            else if(IMC >= 39.9)
                 mens = "Obesidade Classe III (mórbida)";
 
             System.out.printf("%s  IMC = %.1f \n",mens,IMC);
