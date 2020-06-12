@@ -47,15 +47,15 @@ public class Prog84{
 
             if(IMC < 18.5)
                 mens = "Peso abaixo do normal";
-            else if(IMC >= 18.5 || IMC < 24.5)
+            else if(IMC <= 24.5)
                 mens = "Peso ideal";
-            else if(IMC >= 24.5 || IMC < 30)
+            else if(IMC <= 29.9)
                 mens = "Pré-obesidade";
-            else if(IMC >= 30 || IMC < 35)
+            else if(IMC <= 34.9)
                 mens = "Obesidade Classe I";
-            else if(IMC >= 35 || IMC < 39.9)
+            else if(IMC <= 39.9)
                 mens = "Obesidade Classe II (Severa)";
-            else if(IMC >= 39.9)
+            else 
                 mens = "Obesidade Classe III (mórbida)";
 
             System.out.printf("%s  IMC = %.1f \n",mens,IMC);
